@@ -3,6 +3,11 @@ pragma solidity ^0.4.19;
 import "./zombieattack.sol";
 import "./erc721.sol";
 
+/*
+ERC721 standard, and crypto-collectible assets.
+Tutorial on making NFTs that are tradeable with  your friend
+*/
+
 contract ZombieOwnership is ZombieAttack, ERC721 {
 
   mapping (uint => address) zombieApprovals;
